@@ -147,7 +147,7 @@ def main() -> None:
     async def on_ready() -> None:
         print(colorama.Fore.BLUE + "\n- Invite: " + colorama.Fore.CYAN + "https://discord.com/api/oauth2/authorize?client_id={}&scope=applications.commands%20bot".format(client.user.id) + colorama.Fore.RESET)
 
-        activity = discord.Activity(type=discord.ActivityType.playing, name="bot programmed by RiothDev", bot_status=discord.Status.idle)
+        activity = discord.Activity(type=discord.ActivityType.playing, name="bot programmed by NotInit", bot_status=discord.Status.idle)
         await client.change_presence(activity=activity)
 
         print(colorama.Fore.GREEN + "- " + colorama.Fore.LIGHTGREEN_EX + "The bot is ready" + colorama.Fore.RESET + "\n")

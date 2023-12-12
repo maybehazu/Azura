@@ -37,13 +37,13 @@ void display(void) {
     printf("- ");
 
     SetConsoleColor(LIGHT_YELLOW_COLOR);
-    printf("Azura is a small project designed to communicate discord with a computer in order to make dynamic streams programmed by RiothDev.\n");
+    printf("Azura is a small project designed to communicate discord with a computer in order to make dynamic streams programmed by NotInit.\n");
 
     SetConsoleColor(LIGHT_BLUE_COLOR);
     printf("> ");
 
     SetConsoleColor(LIGHT_CYAN_COLOR);
-    printf("https://github.com/RiothDev/Azura\n\n");
+    printf("https://github.com/NotInit/Azura\n\n");
 
     SetConsoleColor(YELLOW_COLOR);
     printf("// Press any key to continue...\n");
