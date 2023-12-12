@@ -1,0 +1,6 @@
+.venv
+.env
+.vscode
+src/__pycache__
+web/node_modules
+Azura.exe
