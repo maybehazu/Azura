@@ -164,21 +164,32 @@ void saiky(void) {
 
     SetConsoleColor(LIGHT_MAGENTA_COLOR);
 
-    printf("This is not a valid option\n");
-    printf("Zzz....\n");
+    printf("You were saikyed\n");
+    printf("- Zzz....\n\n1 - Quit\n");
 
     SetConsoleColor(MAGENTA_COLOR);
 
     printf("> ");
 
     char input[10];
+    fgets(input, sizeof(input), stdin);
+
     int opt;
 
     if(sscanf(input, "%s", &opt) != 1) {
         opt = -1;
     }
 
-    SetConsoleColor(LIGHT_MAGENTA_COLOR);
+    if(opt != 1) {
+        SetConsoleColor(LIGHT_RED_COLOR);
+        printf("\n- Get funky!\n");
+
+        SetConsoleColor(LIGHT_MAGENTA_COLOR);
+        printf("> https://youtu.be/rl7ppuXMfC8?si=NT7WqO2qpcH1sGg6\n");
+    } else {
+        SetConsoleColor(YELLOW_COLOR);
+        printf("// Press any key to continue...\n");
+    }
 
     SetConsoleColor(RESET_COLOR);
 
