@@ -11,12 +11,20 @@ void web_setup(void);
 void execute_option(int);
 void invalid_option(void);
 void display(void);
+void start(void);
 int display_menu(void);
 
 int main(int argc, char *argv[]) {
     system("title Azura");
 
     display();
+    start();
+
+    return EXIT_SUCCESS;
+}
+
+void start(void) {
+    system("cls");
 
     for(;;) {
         if(display_menu() != 0) {
@@ -27,7 +35,7 @@ int main(int argc, char *argv[]) {
         break;
     }
 
-    return EXIT_SUCCESS;
+    start();
 }
 
 void display(void) {
