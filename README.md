@@ -33,6 +33,8 @@
 - Input refers to the characters that will be taken into account to execute commands from the computer and what exactly they will do, for example 'a="left"' refers to the fact that every time "a" is typed the "left" key is executed " on the keyboard. (You can remove and add any input, but the "enter" input should not be removed)
 > ![image](https://github.com/NotInit/Azura/assets/153567247/f4329a73-849e-4934-818b-adf1424c484d)
 
++ **In case there is any problem with the .env file or the logs, you can run the clear.bat file to delete the .env file and also clear the logs** 
+
 # 🤖 Commands
 + ```/connect``` - Send a request to the computer to connect the user.
 + ```/disconnect``` - Disconnect the user from the computer.
