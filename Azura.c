@@ -195,13 +195,11 @@ void web_setup(void) {
 
     display_ascii();
 
-    system("cd web");
-
     SetConsoleColor(YELLOW_COLOR);
     printf("\n* Installing the website dependencies...\n");
 
     SetConsoleColor(LIGHT_BLUE_COLOR);
-    system("npm install");
+    system("cd web & npm install");
 
     SetConsoleColor(LIGHT_GREEN_COLOR);
     printf("\n- The website was installed, press any key to continue...\n");

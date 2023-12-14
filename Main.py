@@ -143,6 +143,8 @@ async def help(interaction: interactions.Interaction) -> None:
         await interaction.response.send_message(embed=discord.Embed(title="Error when trying to perform the action.", description="This may be due to an internal error.", color=discord.Color.red()))
 
 def main() -> None:
+    os.system("cls")
+
     @client.event
     async def on_ready() -> None:
         print(colorama.Fore.BLUE + "\n- Invite: " + colorama.Fore.CYAN + "https://discord.com/api/oauth2/authorize?client_id={}&scope=applications.commands%20bot".format(client.user.id) + colorama.Fore.RESET)
