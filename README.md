@@ -18,7 +18,7 @@
 
 # 📖 Instructions
 
-+ Run the Azura.exe file (It is recommended that you make a shortcut if you plan to move the file)
++ Compile and run the Azura.c file (It is recommended that you create a shortcut of the .exe file if you plan to move the file)
 > ![image](https://github.com/NotInit/Azura/assets/153567247/c225f70c-2d7b-45a9-a3cb-6dd7b31cb6b7)
 
 + In the Azura menu you will find the following options: The ".env setup" option will allow you to create and modify the .env file which will request as requirements the ID of the guild in which you want to run the bot and the bot token. "Project setup" will install everything necessary to run the bot. "Website setup" will install everything necessary to run the website. "Complete project setup" will install the entire project (i.e. the three options above). "Run project" will open the project run menu.
