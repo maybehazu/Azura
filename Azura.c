@@ -51,7 +51,7 @@ void display(void) {
     printf("> ");
 
     SetConsoleColor(LIGHT_CYAN_COLOR);
-    printf("https://github.com/NotInit/Azura\n\n");
+    printf("https://github.com/nothazu/Azura\n\n");
 
     SetConsoleColor(YELLOW_COLOR);
     printf("// Press any key to continue...\n");
