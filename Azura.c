@@ -45,7 +45,7 @@ void display(void) {
     printf("- ");
 
     SetConsoleColor(LIGHT_YELLOW_COLOR);
-    printf("Azura is a small project designed to communicate discord with a computer in order to make dynamic streams programmed by NotInit.\n");
+    printf("Azura is a small project designed to communicate discord with a computer in order to make dynamic streams programmed by Hazu.\n");
 
     SetConsoleColor(LIGHT_BLUE_COLOR);
     printf("> ");
